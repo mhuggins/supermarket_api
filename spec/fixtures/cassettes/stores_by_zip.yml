@@ -1,0 +1,46 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.supermarketapi.com/api.asmx/StoresByZip?APIKEY=API_KEY&ZipCode=80027
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - www.supermarketapi.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 27 Oct 2014 13:20:27 GMT
+      Server:
+      - Microsoft-IIS/6.0
+      X-Powered-By:
+      - ASP.NET
+      X-Aspnet-Version:
+      - 2.0.50727
+      Cache-Control:
+      - private, max-age=0
+      Content-Type:
+      - text/xml; charset=utf-8
+      Content-Length:
+      - '438'
+    body:
+      encoding: UTF-8
+      string: "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<ArrayOfStore xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"
+        xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns=\"http://www.SupermarketAPI.com\">\r\n
+        \ <Store>\r\n    <Storename>Target  </Storename>\r\n    <Address>400 Marshall
+        Rd.</Address>\r\n    <City>Superior</City>\r\n    <State>CO</State>\r\n    <Zip>80027</Zip>\r\n
+        \   <Phone> </Phone>\r\n    <StoreId>af9f101a75</StoreId>\r\n  </Store>\r\n</ArrayOfStore>"
+    http_version: 
+  recorded_at: Mon, 27 Oct 2014 13:20:27 GMT
+recorded_with: VCR 2.9.3

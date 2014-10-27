@@ -1,0 +1,62 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.supermarketapi.com/api.asmx/ReturnStoresByName?APIKEY=API_KEY&StoreName=Whole%20Foods
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - www.supermarketapi.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 27 Oct 2014 13:20:28 GMT
+      Server:
+      - Microsoft-IIS/6.0
+      X-Powered-By:
+      - ASP.NET
+      X-Aspnet-Version:
+      - 2.0.50727
+      Cache-Control:
+      - private, max-age=0
+      Content-Type:
+      - text/xml; charset=utf-8
+      Content-Length:
+      - '1611'
+    body:
+      encoding: UTF-8
+      string: "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<ArrayOfStore xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"
+        xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns=\"http://www.SupermarketAPI.com\">\r\n
+        \ <Store>\r\n    <Storename>Whole Foods Market  </Storename>\r\n    <Address>650
+        Ponce De Leon Ave NE</Address>\r\n    <City>Atlanta</City>\r\n    <State>GA
+        </State>\r\n    <Zip>30308</Zip>\r\n    <Phone> </Phone>\r\n    <StoreId>57f0d25c2e</StoreId>\r\n
+        \ </Store>\r\n  <Store>\r\n    <Storename>Whole Foods Market</Storename>\r\n
+        \   <Address>255 E Basse Rd, #130</Address>\r\n    <City>San Antonio</City>\r\n
+        \   <State>TX</State>\r\n    <Zip>78209</Zip>\r\n    <Phone> </Phone>\r\n
+        \   <StoreId>c0005ebb7f</StoreId>\r\n  </Store>\r\n  <Store>\r\n    <Storename>Whole
+        Foods Market</Storename>\r\n    <Address>929 South St</Address>\r\n    <City>Philadelphia</City>\r\n
+        \   <State>PA</State>\r\n    <Zip>19147</Zip>\r\n    <Phone> </Phone>\r\n
+        \   <StoreId>05136635f7</StoreId>\r\n  </Store>\r\n  <Store>\r\n    <Storename>Whole
+        Foods Market</Storename>\r\n    <Address>11700 Preston Rd</Address>\r\n    <City>Dallas</City>\r\n
+        \   <State>TX</State>\r\n    <Zip>75230</Zip>\r\n    <Phone> </Phone>\r\n
+        \   <StoreId>698ea63147</StoreId>\r\n  </Store>\r\n  <Store>\r\n    <Storename>Whole
+        Foods Market</Storename>\r\n    <Address>2118 Abrams Road</Address>\r\n    <City>Dallas</City>\r\n
+        \   <State>TX</State>\r\n    <Zip>75214</Zip>\r\n    <Phone> </Phone>\r\n
+        \   <StoreId>3fc832316c</StoreId>\r\n  </Store>\r\n  <Store>\r\n    <Storename>Whole
+        Foods</Storename>\r\n    <Address> </Address>\r\n    <City />\r\n    <State
+        />\r\n    <Zip>11801</Zip>\r\n    <Phone />\r\n    <StoreId>be85519160</StoreId>\r\n
+        \ </Store>\r\n</ArrayOfStore>"
+    http_version: 
+  recorded_at: Mon, 27 Oct 2014 13:20:27 GMT
+recorded_with: VCR 2.9.3

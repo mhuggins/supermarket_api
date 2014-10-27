@@ -1,0 +1,162 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.supermarketapi.com/api.asmx/SearchByProductName?APIKEY=API_KEY&ItemName=parsley
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - www.supermarketapi.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 27 Oct 2014 13:43:28 GMT
+      Server:
+      - Microsoft-IIS/6.0
+      X-Powered-By:
+      - ASP.NET
+      X-Aspnet-Version:
+      - 2.0.50727
+      Cache-Control:
+      - private, max-age=0
+      Content-Type:
+      - text/xml; charset=utf-8
+      Content-Length:
+      - '10867'
+    body:
+      encoding: UTF-8
+      string: "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<ArrayOfProduct xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"
+        xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns=\"http://www.SupermarketAPI.com\">\r\n
+        \ <Product>\r\n    <Itemname>Mccormick Parsley Flake Gourmet - .2 Oz</Itemname>\r\n
+        \   <ItemDescription>We&amp;#39;ve searched the world to gather the most exotic,
+        premium herbs and spices so you can create an authentic flavor adventure all
+        your own. All natural.</ItemDescription>\r\n    <ItemCategory>Condiments/Spices
+        &amp; Bake</ItemCategory>\r\n    <ItemID>32372</ItemID>\r\n    <ItemImage>http://smapistorage.blob.core.windows.net/thumbimages/214200069_100x100.jpg</ItemImage>\r\n
+        \   <AisleNumber>Aisle:N/A</AisleNumber>\r\n  </Product>\r\n  <Product>\r\n
+        \   <Itemname>Mccormick Parsley Flakes - .5 Oz</Itemname>\r\n    <ItemDescription>Flavor
+        Tip: 1 tsp. dried Parsley = 1 tbsp. fresh Parsley.</ItemDescription>\r\n    <ItemCategory>Condiments/Spices
+        &amp; Bake</ItemCategory>\r\n    <ItemID>32373</ItemID>\r\n    <ItemImage>http://smapistorage.blob.core.windows.net/thumbimages/114150120_100x100.jpg</ItemImage>\r\n
+        \   <AisleNumber>Aisle:N/A</AisleNumber>\r\n  </Product>\r\n  <Product>\r\n
+        \   <Itemname>Safeway Parsley Flakes - .75 Oz</Itemname>\r\n    <ItemDescription>Superb
+        for garnishing potato dishes and rice dishes. Taste-tempting when sprinkled
+        into soups, gravies, sauces, salads or salad dressings.</ItemDescription>\r\n
+        \   <ItemCategory>Condiments/Spices &amp; Bake</ItemCategory>\r\n    <ItemID>32396</ItemID>\r\n
+        \   <ItemImage>http://smapistorage.blob.core.windows.net/thumbimages/114150744_100x100.jpg</ItemImage>\r\n
+        \   <AisleNumber>Aisle:N/A</AisleNumber>\r\n  </Product>\r\n  <Product>\r\n
+        \   <Itemname>Italian Parsley Bunch</Itemname>\r\n    <ItemDescription>No
+        Description</ItemDescription>\r\n    <ItemCategory>Fruits &amp; Vegetables</ItemCategory>\r\n
+        \   <ItemID>37332</ItemID>\r\n    <ItemImage>http://smapistorage.blob.core.windows.net/thumbimages/184410046_100x100.jpg</ItemImage>\r\n
+        \   <AisleNumber>Aisle:N/A</AisleNumber>\r\n  </Product>\r\n  <Product>\r\n
+        \   <Itemname>Parsley</Itemname>\r\n    <ItemDescription>No Description</ItemDescription>\r\n
+        \   <ItemCategory>Fruits &amp; Vegetables</ItemCategory>\r\n    <ItemID>37335</ItemID>\r\n
+        \   <ItemImage>http://smapistorage.blob.core.windows.net/thumbimages/184410097_100x100.jpg</ItemImage>\r\n
+        \   <AisleNumber>Aisle:N/A</AisleNumber>\r\n  </Product>\r\n  <Product>\r\n
+        \   <Itemname>Organic Fresh Parsley</Itemname>\r\n    <ItemDescription>Organically
+        grown with pride and integrity. Healthy by choice. Organically grown in accordance
+        with the California Foods Act of 1990.</ItemDescription>\r\n    <ItemCategory>Fruits
+        &amp; Vegetables</ItemCategory>\r\n    <ItemID>37542</ItemID>\r\n    <ItemImage>http://smapistorage.blob.core.windows.net/thumbimages/184710357_100x100.jpg</ItemImage>\r\n
+        \   <AisleNumber>Aisle:N/A</AisleNumber>\r\n  </Product>\r\n  <Product>\r\n
+        \   <Itemname>Spice Islands Flake Parsley Seasoning  - 0.3 oz (9 g)</Itemname>\r\n
+        \   <ItemDescription>Spice Islands Flake Parsley Seasoning  - 0.3 oz (9 g)</ItemDescription>\r\n
+        \   <ItemCategory>Condiments/Spices &amp; Bake</ItemCategory>\r\n    <ItemID>73898</ItemID>\r\n
+        \   <ItemImage>http://smapistorage.blob.core.windows.net/thumbimages/2/79CB8F2.jpg</ItemImage>\r\n
+        \   <AisleNumber>Aisle:N/A</AisleNumber>\r\n  </Product>\r\n  <Product>\r\n
+        \   <Itemname>Lawrys Ground Garlic And Parsley Salt Seasoning  - 3 oz (85
+        g)</Itemname>\r\n    <ItemDescription>Lawrys Ground Garlic And Parsley Salt
+        Seasoning  - 3 oz (85 g)</ItemDescription>\r\n    <ItemCategory>Condiments/Spices
+        &amp; Bake</ItemCategory>\r\n    <ItemID>77211</ItemID>\r\n    <ItemImage>http://smapistorage.blob.core.windows.net/thumbimages/2/3399F79.jpg</ItemImage>\r\n
+        \   <AisleNumber>Aisle:N/A</AisleNumber>\r\n  </Product>\r\n  <Product>\r\n
+        \   <Itemname>Lawrys No Msg Powder Garlic And Parsley Seasoning  - 5.5 Oz.
+        Plastic Bottle</Itemname>\r\n    <ItemDescription>Lawrys No Msg Powder Garlic
+        And Parsley Seasoning  - 5.5 Oz. Plastic Bottle</ItemDescription>\r\n    <ItemCategory>Condiments/Spices
+        &amp; Bake</ItemCategory>\r\n    <ItemID>77214</ItemID>\r\n    <ItemImage>http://smapistorage.blob.core.windows.net/thumbimages/2/DBFC39C.jpg</ItemImage>\r\n
+        \   <AisleNumber>Aisle:N/A</AisleNumber>\r\n  </Product>\r\n  <Product>\r\n
+        \   <Itemname>Nabisco Wheat Thins Flatbread Garlic And Parsley Crackers  -
+        5.5 Oz Box</Itemname>\r\n    <ItemDescription>Nabisco Wheat Thins Flatbread
+        Garlic And Parsley Crackers  - 5.5 Oz Box</ItemDescription>\r\n    <ItemCategory>Cookies,
+        Snacks &amp; Candy</ItemCategory>\r\n    <ItemID>80408</ItemID>\r\n    <ItemImage>http://smapistorage.blob.core.windows.net/thumbimages/2/B3CCBF7.gif</ItemImage>\r\n
+        \   <AisleNumber>Aisle:N/A</AisleNumber>\r\n  </Product>\r\n  <Product>\r\n
+        \   <Itemname>Gourmet Herbs Flake Parsley Seasoning  - .2 Oz Shaker</Itemname>\r\n
+        \   <ItemDescription>Gourmet Herbs Flake Parsley Seasoning  - .2 Oz Shaker</ItemDescription>\r\n
+        \   <ItemCategory>Condiments/Spices &amp; Bake</ItemCategory>\r\n    <ItemID>81563</ItemID>\r\n
+        \   <ItemImage>http://smapistorage.blob.core.windows.net/thumbimages/2/8C7BDEC.jpg</ItemImage>\r\n
+        \   <AisleNumber>Aisle:N/A</AisleNumber>\r\n  </Product>\r\n  <Product>\r\n
+        \   <Itemname>Dry Herbs Flake Parsley Spice  - .25 Oz Shaker</Itemname>\r\n
+        \   <ItemDescription>Dry Herbs Flake Parsley Spice  - .25 Oz Shaker</ItemDescription>\r\n
+        \   <ItemCategory>Condiments/Spices &amp; Bake</ItemCategory>\r\n    <ItemID>81603</ItemID>\r\n
+        \   <ItemImage>http://smapistorage.blob.core.windows.net/thumbimages/2/D39FB4D.jpg</ItemImage>\r\n
+        \   <AisleNumber>Aisle:N/A</AisleNumber>\r\n  </Product>\r\n  <Product>\r\n
+        \   <Itemname>Dry Onion And Garlic Coarse Grind Blend w/Parsley  - 6.25 Oz
+        Shaker</Itemname>\r\n    <ItemDescription>Dry Onion And Garlic Coarse Grind
+        Blend w/Parsley  - 6.25 Oz Shaker</ItemDescription>\r\n    <ItemCategory>Condiments/Spices
+        &amp; Bake</ItemCategory>\r\n    <ItemID>81651</ItemID>\r\n    <ItemImage>http://smapistorage.blob.core.windows.net/thumbimages/2/86D4A65.jpg</ItemImage>\r\n
+        \   <AisleNumber>Aisle:N/A</AisleNumber>\r\n  </Product>\r\n  <Product>\r\n
+        \   <Itemname>Dry Onion And Garlic w/Parsley Coarse Grind Blend  - 3 Oz Shaker</Itemname>\r\n
+        \   <ItemDescription>Dry Onion And Garlic w/Parsley Coarse Grind Blend  -
+        3 Oz Shaker</ItemDescription>\r\n    <ItemCategory>Condiments/Spices &amp;
+        Bake</ItemCategory>\r\n    <ItemID>81652</ItemID>\r\n    <ItemImage>http://smapistorage.blob.core.windows.net/thumbimages/2/0C7BEFA.jpg</ItemImage>\r\n
+        \   <AisleNumber>Aisle:N/A</AisleNumber>\r\n  </Product>\r\n  <Product>\r\n
+        \   <Itemname>Dry Onion And Garlic Coarse Grind Blend w/Parsley  - 6 Oz Shaker</Itemname>\r\n
+        \   <ItemDescription>Dry Onion And Garlic Coarse Grind Blend w/Parsley  -
+        6 Oz Shaker</ItemDescription>\r\n    <ItemCategory>Condiments/Spices &amp;
+        Bake</ItemCategory>\r\n    <ItemID>81653</ItemID>\r\n    <ItemImage>http://smapistorage.blob.core.windows.net/thumbimages/2/E5280E3.jpg</ItemImage>\r\n
+        \   <AisleNumber>Aisle:N/A</AisleNumber>\r\n  </Product>\r\n  <Product>\r\n
+        \   <Itemname>Dry Onion And Garlic w/Parsley Coarse Grind Blend  - 12 Oz Shaker</Itemname>\r\n
+        \   <ItemDescription>Dry Onion And Garlic w/Parsley Coarse Grind Blend  -
+        12 Oz Shaker</ItemDescription>\r\n    <ItemCategory>Condiments/Spices &amp;
+        Bake</ItemCategory>\r\n    <ItemID>81672</ItemID>\r\n    <ItemImage>http://smapistorage.blob.core.windows.net/thumbimages/2/5247EA1.jpg</ItemImage>\r\n
+        \   <AisleNumber>Aisle:N/A</AisleNumber>\r\n  </Product>\r\n  <Product>\r\n
+        \   <Itemname>Flake Parsley Seasoning  - 0.375 Oz. Plastic Peg Bag</Itemname>\r\n
+        \   <ItemDescription>Flake Parsley Seasoning  - 0.375 Oz. Plastic Peg Bag</ItemDescription>\r\n
+        \   <ItemCategory>Condiments/Spices &amp; Bake</ItemCategory>\r\n    <ItemID>84309</ItemID>\r\n
+        \   <ItemImage>http://smapistorage.blob.core.windows.net/thumbimages/2/3C07125.jpg</ItemImage>\r\n
+        \   <AisleNumber>Aisle:N/A</AisleNumber>\r\n  </Product>\r\n  <Product>\r\n
+        \   <Itemname>Dogswell Breathies  Chicken Breast with Mint And Parsley  -
+        6 oz (170g)</Itemname>\r\n    <ItemDescription>Dogswell Breathies  Chicken
+        Breast with Mint And Parsley  - 6 oz (170g)</ItemDescription>\r\n    <ItemCategory>Pet
+        Care</ItemCategory>\r\n    <ItemID>84678</ItemID>\r\n    <ItemImage>http://smapistorage.blob.core.windows.net/thumbimages/2/1CB9CDC.jpg</ItemImage>\r\n
+        \   <AisleNumber>Aisle:N/A</AisleNumber>\r\n  </Product>\r\n  <Product>\r\n
+        \   <Itemname>Superline Deal Flake Parsley Seasoning  - 1.2 Oz Shaker</Itemname>\r\n
+        \   <ItemDescription>Superline Deal Flake Parsley Seasoning  - 1.2 Oz Shaker</ItemDescription>\r\n
+        \   <ItemCategory>Condiments/Spices &amp; Bake</ItemCategory>\r\n    <ItemID>85817</ItemID>\r\n
+        \   <ItemImage>http://smapistorage.blob.core.windows.net/thumbimages/2/5E59BCF.jpg</ItemImage>\r\n
+        \   <AisleNumber>Aisle:N/A</AisleNumber>\r\n  </Product>\r\n  <Product>\r\n
+        \   <Itemname>Burpee Org Moss Crld Parsley </Itemname>\r\n    <ItemDescription>Burpee
+        Org Moss Crld Parsley </ItemDescription>\r\n    <ItemCategory>Flowers</ItemCategory>\r\n
+        \   <ItemID>88526</ItemID>\r\n    <ItemImage>http://smapistorage.blob.core.windows.net/thumbimages/2/no_image_sm.jpg</ItemImage>\r\n
+        \   <AisleNumber>Aisle:N/A</AisleNumber>\r\n  </Product>\r\n  <Product>\r\n
+        \   <Itemname>Burpee Org Plain Parsley Herb </Itemname>\r\n    <ItemDescription>Burpee
+        Org Plain Parsley Herb </ItemDescription>\r\n    <ItemCategory>Flowers</ItemCategory>\r\n
+        \   <ItemID>88527</ItemID>\r\n    <ItemImage>http://smapistorage.blob.core.windows.net/thumbimages/2/no_image_sm.jpg</ItemImage>\r\n
+        \   <AisleNumber>Aisle:N/A</AisleNumber>\r\n  </Product>\r\n  <Product>\r\n
+        \   <Itemname>El Guapo Flake Parsley Spice  - 0.25 Oz. Plastic Bag</Itemname>\r\n
+        \   <ItemDescription>El Guapo Flake Parsley Spice  - 0.25 Oz. Plastic Bag</ItemDescription>\r\n
+        \   <ItemCategory>Condiments/Spices &amp; Bake</ItemCategory>\r\n    <ItemID>89721</ItemID>\r\n
+        \   <ItemImage>http://smapistorage.blob.core.windows.net/thumbimages/2/no_image_sm.jpg</ItemImage>\r\n
+        \   <AisleNumber>Aisle:N/A</AisleNumber>\r\n  </Product>\r\n  <Product>\r\n
+        \   <Itemname>CURLY PARSLEY </Itemname>\r\n    <ItemDescription>CURLY PARSLEY
+        </ItemDescription>\r\n    <ItemCategory>Fruits &amp; Vegetables</ItemCategory>\r\n
+        \   <ItemID>91923</ItemID>\r\n    <ItemImage>http://smapistorage.blob.core.windows.net/thumbimages/2/no_image_sm.jpg</ItemImage>\r\n
+        \   <AisleNumber>Aisle:N/A</AisleNumber>\r\n  </Product>\r\n  <Product>\r\n
+        \   <Itemname>ITALIAN PARSLEY </Itemname>\r\n    <ItemDescription>ITALIAN
+        PARSLEY </ItemDescription>\r\n    <ItemCategory>Fruits &amp; Vegetables</ItemCategory>\r\n
+        \   <ItemID>91926</ItemID>\r\n    <ItemImage>http://smapistorage.blob.core.windows.net/thumbimages/2/no_image_sm.jpg</ItemImage>\r\n
+        \   <AisleNumber>Aisle:N/A</AisleNumber>\r\n  </Product>\r\n  <Product>\r\n
+        \   <Itemname>PARSLEY Italian </Itemname>\r\n    <ItemDescription>PARSLEY
+        Italian </ItemDescription>\r\n    <ItemCategory>Fruits &amp; Vegetables</ItemCategory>\r\n
+        \   <ItemID>91930</ItemID>\r\n    <ItemImage>http://smapistorage.blob.core.windows.net/thumbimages/2/no_image_sm.jpg</ItemImage>\r\n
+        \   <AisleNumber>Aisle:N/A</AisleNumber>\r\n  </Product>\r\n</ArrayOfProduct>"
+    http_version: 
+  recorded_at: Mon, 27 Oct 2014 13:43:27 GMT
+recorded_with: VCR 2.9.3

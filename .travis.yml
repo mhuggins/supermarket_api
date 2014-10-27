@@ -1,0 +1,11 @@
+language: ruby
+rvm:
+  - 2.0.0
+  - 2.1.0
+  - ruby-head
+matrix:
+  allow_failures:
+    - rvm: ruby-head
+env:
+  global:
+    secure: ZwUVMgvpGI5v7zKX6gKc16LUgwUbO2Vq879stelF3vZElvZXKx2axm6aVFl1rbEDHAzZCDT8QGOvfKJKXKdZSh+hE8e7EpiD51V2VUP2t76nLbVyooAvDY7CYmhh2XEZKG5sXtYmx2Xn87w8nu8KfoEJinwYxrENM6vdoDUeiSI=

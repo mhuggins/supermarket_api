@@ -1,0 +1,49 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.supermarketapi.com/api.asmx/COMMERCIAL_SearchByItemID?APIKEY=API_KEY&ItemId=37332
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - www.supermarketapi.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 27 Oct 2014 14:27:52 GMT
+      Server:
+      - Microsoft-IIS/6.0
+      X-Powered-By:
+      - ASP.NET
+      X-Aspnet-Version:
+      - 2.0.50727
+      Cache-Control:
+      - private, max-age=0
+      Content-Type:
+      - text/xml; charset=utf-8
+      Content-Length:
+      - '648'
+    body:
+      encoding: UTF-8
+      string: "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<ArrayOfProduct_Commercial
+        xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\"
+        xmlns=\"http://www.SupermarketAPI.com\">\r\n  <Product_Commercial>\r\n    <Itemname>Italian
+        Parsley Bunch</Itemname>\r\n    <ItemDescription>No Description</ItemDescription>\r\n
+        \   <ItemCategory>Fruits &amp; Vegetables</ItemCategory>\r\n    <ItemID>37332</ItemID>\r\n
+        \   <ItemImage>http://smapistorage.blob.core.windows.net/thumbimages/184410046_100x100.jpg</ItemImage>\r\n
+        \   <AisleNumber>Aisle:None</AisleNumber>\r\n    <Pricing>1.09</Pricing>\r\n
+        \ </Product_Commercial>\r\n</ArrayOfProduct_Commercial>"
+    http_version: 
+  recorded_at: Mon, 27 Oct 2014 14:27:52 GMT
+recorded_with: VCR 2.9.3

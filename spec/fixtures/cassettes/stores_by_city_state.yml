@@ -1,0 +1,127 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.supermarketapi.com/api.asmx/StoresByCityState?APIKEY=API_KEY&SelectedCity=San%20Francisco&SelectedState=CA
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - www.supermarketapi.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 27 Oct 2014 13:20:26 GMT
+      Server:
+      - Microsoft-IIS/6.0
+      X-Powered-By:
+      - ASP.NET
+      X-Aspnet-Version:
+      - 2.0.50727
+      Cache-Control:
+      - private, max-age=0
+      Content-Type:
+      - text/xml; charset=utf-8
+      Content-Length:
+      - '6604'
+    body:
+      encoding: UTF-8
+      string: "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<ArrayOfStore xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"
+        xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns=\"http://www.SupermarketAPI.com\">\r\n
+        \ <Store>\r\n    <Storename>Safeway  </Storename>\r\n    <Address>2020 Market
+        St</Address>\r\n    <City>San Francisco</City>\r\n    <State>CA</State>\r\n
+        \   <Zip> </Zip>\r\n    <Phone> </Phone>\r\n    <StoreId>e6k3fjw75k</StoreId>\r\n
+        \ </Store>\r\n  <Store>\r\n    <Storename>Safeway  </Storename>\r\n    <Address>350
+        Bay St</Address>\r\n    <City>San Francisco</City>\r\n    <State>CA</State>\r\n
+        \   <Zip> </Zip>\r\n    <Phone> </Phone>\r\n    <StoreId>e6k3fjw76k</StoreId>\r\n
+        \ </Store>\r\n  <Store>\r\n    <Storename>Safeway  </Storename>\r\n    <Address>625
+        Monterey Blvd.</Address>\r\n    <City>San Francisco</City>\r\n    <State>CA</State>\r\n
+        \   <Zip> </Zip>\r\n    <Phone> </Phone>\r\n    <StoreId>e6k3fjw78k</StoreId>\r\n
+        \ </Store>\r\n  <Store>\r\n    <Storename>Safeway  </Storename>\r\n    <Address>2350
+        Noriega St. 30th Ave.</Address>\r\n    <City>San Francisco</City>\r\n    <State>CA</State>\r\n
+        \   <Zip> </Zip>\r\n    <Phone> </Phone>\r\n    <StoreId>e6k3fjw79k</StoreId>\r\n
+        \ </Store>\r\n  <Store>\r\n    <Storename>Safeway  </Storename>\r\n    <Address>850
+        La Playa St.</Address>\r\n    <City>San Francisco</City>\r\n    <State>CA</State>\r\n
+        \   <Zip> </Zip>\r\n    <Phone> </Phone>\r\n    <StoreId>e6k3fjw80k</StoreId>\r\n
+        \ </Store>\r\n  <Store>\r\n    <Storename>Safeway  </Storename>\r\n    <Address>5290
+        Diamond Hts Blvd.</Address>\r\n    <City>San Francisco</City>\r\n    <State>CA</State>\r\n
+        \   <Zip> </Zip>\r\n    <Phone> </Phone>\r\n    <StoreId>e6k3fjw88k</StoreId>\r\n
+        \ </Store>\r\n  <Store>\r\n    <Storename>Safeway  </Storename>\r\n    <Address>850
+        La Playa St.</Address>\r\n    <City>San Francisco</City>\r\n    <State>CA</State>\r\n
+        \   <Zip> </Zip>\r\n    <Phone> </Phone>\r\n    <StoreId>e6k3fjw90k</StoreId>\r\n
+        \ </Store>\r\n  <Store>\r\n    <Storename>Safeway  </Storename>\r\n    <Address>298
+        King Street</Address>\r\n    <City>San Francisco</City>\r\n    <State>CA</State>\r\n
+        \   <Zip> </Zip>\r\n    <Phone> </Phone>\r\n    <StoreId>e6k3fjw92k</StoreId>\r\n
+        \ </Store>\r\n  <Store>\r\n    <Storename>Safeway  </Storename>\r\n    <Address>3350
+        Mission St</Address>\r\n    <City>San Francisco</City>\r\n    <State>CA</State>\r\n
+        \   <Zip> </Zip>\r\n    <Phone> </Phone>\r\n    <StoreId>e6k3fjw93k</StoreId>\r\n
+        \ </Store>\r\n  <Store>\r\n    <Storename>Safeway  </Storename>\r\n    <Address>735
+        7th Ave.</Address>\r\n    <City>San Francisco</City>\r\n    <State>CA</State>\r\n
+        \   <Zip> </Zip>\r\n    <Phone> </Phone>\r\n    <StoreId>e6k3fjw94k</StoreId>\r\n
+        \ </Store>\r\n  <Store>\r\n    <Storename>Safeway  </Storename>\r\n    <Address>4950
+        Mission St</Address>\r\n    <City>San Francisco</City>\r\n    <State>CA</State>\r\n
+        \   <Zip> </Zip>\r\n    <Phone> </Phone>\r\n    <StoreId>e6k3fjw95k</StoreId>\r\n
+        \ </Store>\r\n  <Store>\r\n    <Storename>Safeway  </Storename>\r\n    <Address>730
+        Taraval St.</Address>\r\n    <City>San Francisco</City>\r\n    <State>CA</State>\r\n
+        \   <Zip> </Zip>\r\n    <Phone> </Phone>\r\n    <StoreId>e6k3fjw96k</StoreId>\r\n
+        \ </Store>\r\n  <Store>\r\n    <Storename>Luckys  </Storename>\r\n    <Address>
+        1750 Fulton Street</Address>\r\n    <City>San Francisco</City>\r\n    <State>CA</State>\r\n
+        \   <Zip>94117</Zip>\r\n    <Phone> </Phone>\r\n    <StoreId>e6k3fjw208k</StoreId>\r\n
+        \ </Store>\r\n  <Store>\r\n    <Storename>Luckys  </Storename>\r\n    <Address>
+        1515 Sloat Blvd.</Address>\r\n    <City>San Francisco</City>\r\n    <State>CA</State>\r\n
+        \   <Zip>94132</Zip>\r\n    <Phone> </Phone>\r\n    <StoreId>e6k3fjw209k</StoreId>\r\n
+        \ </Store>\r\n  <Store>\r\n    <Storename>Trader Joes  </Storename>\r\n    <Address>265
+        Winston Dr.</Address>\r\n    <City>San Francisco</City>\r\n    <State>CA</State>\r\n
+        \   <Zip>94132</Zip>\r\n    <Phone> </Phone>\r\n    <StoreId>e6k3fjw233k</StoreId>\r\n
+        \ </Store>\r\n  <Store>\r\n    <Storename>Trader Joes  </Storename>\r\n    <Address>3
+        Masonic Avenue</Address>\r\n    <City>San Francisco</City>\r\n    <State>CA</State>\r\n
+        \   <Zip>94118</Zip>\r\n    <Phone> </Phone>\r\n    <StoreId>e6k3fjw234k</StoreId>\r\n
+        \ </Store>\r\n  <Store>\r\n    <Storename>Trader Joes  </Storename>\r\n    <Address>555
+        9th Street</Address>\r\n    <City>San Francisco</City>\r\n    <State>CA</State>\r\n
+        \   <Zip>94103</Zip>\r\n    <Phone> </Phone>\r\n    <StoreId>e6k3fjw235k</StoreId>\r\n
+        \ </Store>\r\n  <Store>\r\n    <Storename>FoodsCo  </Storename>\r\n    <Address>1800
+        Folsom St.</Address>\r\n    <City>San Francisco</City>\r\n    <State>CA</State>\r\n
+        \   <Zip>94103</Zip>\r\n    <Phone> </Phone>\r\n    <StoreId>fa79e2e2fc</StoreId>\r\n
+        \ </Store>\r\n  <Store>\r\n    <Storename>FoodsCo  </Storename>\r\n    <Address>345
+        Williams Ave.</Address>\r\n    <City>San Francisco</City>\r\n    <State>CA</State>\r\n
+        \   <Zip>94124</Zip>\r\n    <Phone> </Phone>\r\n    <StoreId>d25b2f4e7b</StoreId>\r\n
+        \ </Store>\r\n  <Store>\r\n    <Storename>Mollie Stone's Market  </Storename>\r\n
+        \   <Address>4201 18th Street </Address>\r\n    <City>San Francisco</City>\r\n
+        \   <State>CA</State>\r\n    <Zip>94114</Zip>\r\n    <Phone> </Phone>\r\n
+        \   <StoreId>86fb0c2ff1</StoreId>\r\n  </Store>\r\n  <Store>\r\n    <Storename>Mollie
+        Stone's Market  </Storename>\r\n    <Address>2435 California Street</Address>\r\n
+        \   <City>San Francisco</City>\r\n    <State>CA</State>\r\n    <Zip>94115</Zip>\r\n
+        \   <Phone> </Phone>\r\n    <StoreId>cf79f7f097</StoreId>\r\n  </Store>\r\n
+        \ <Store>\r\n    <Storename>Mollie Stone's Market  </Storename>\r\n    <Address>635
+        Portola Drive</Address>\r\n    <City>San Francisco</City>\r\n    <State>CA</State>\r\n
+        \   <Zip>94127</Zip>\r\n    <Phone> </Phone>\r\n    <StoreId>06cb41b570</StoreId>\r\n
+        \ </Store>\r\n  <Store>\r\n    <Storename>Adronico's Community Markets  </Storename>\r\n
+        \   <Address>1200 Irving Street</Address>\r\n    <City>San Francisco</City>\r\n
+        \   <State>CA</State>\r\n    <Zip>94122</Zip>\r\n    <Phone> </Phone>\r\n
+        \   <StoreId>8611b7ce3d</StoreId>\r\n  </Store>\r\n  <Store>\r\n    <Storename>The
+        Real Food Company  </Storename>\r\n    <Address>2140 Polk St.</Address>\r\n
+        \   <City>San Francisco</City>\r\n    <State>CA</State>\r\n    <Zip>94109</Zip>\r\n
+        \   <Phone> </Phone>\r\n    <StoreId>ee210b7b3a</StoreId>\r\n  </Store>\r\n
+        \ <Store>\r\n    <Storename>CALA Foods  </Storename>\r\n    <Address>1095
+        Hyde St.</Address>\r\n    <City>San Francisco</City>\r\n    <State>CA</State>\r\n
+        \   <Zip>94109</Zip>\r\n    <Phone> </Phone>\r\n    <StoreId>6f040ac0da</StoreId>\r\n
+        \ </Store>\r\n  <Store>\r\n    <Storename>Lucky Supermarkets  </Storename>\r\n
+        \   <Address>1515 Sloat Blvd.</Address>\r\n    <City>San Francisco</City>\r\n
+        \   <State>CA</State>\r\n    <Zip>94132</Zip>\r\n    <Phone> </Phone>\r\n
+        \   <StoreId>0d665a3670</StoreId>\r\n  </Store>\r\n  <Store>\r\n    <Storename
+        />\r\n    <Address> </Address>\r\n    <City>San Francisco</City>\r\n    <State>Ca</State>\r\n
+        \   <Zip>94112</Zip>\r\n    <Phone />\r\n    <StoreId>af1c17f9a1</StoreId>\r\n
+        \ </Store>\r\n</ArrayOfStore>"
+    http_version: 
+  recorded_at: Mon, 27 Oct 2014 13:20:26 GMT
+recorded_with: VCR 2.9.3

@@ -1,0 +1,235 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.supermarketapi.com/api.asmx/COMMERCIAL_SearchForItem?APIKEY=API_KEY&ItemName=apple&StoreId=af9f101a75
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - www.supermarketapi.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 27 Oct 2014 14:49:51 GMT
+      Server:
+      - Microsoft-IIS/6.0
+      X-Powered-By:
+      - ASP.NET
+      X-Aspnet-Version:
+      - 2.0.50727
+      Cache-Control:
+      - private, max-age=0
+      Content-Type:
+      - text/xml; charset=utf-8
+      Content-Length:
+      - '16372'
+    body:
+      encoding: UTF-8
+      string: "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<ArrayOfProduct_Commercial
+        xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\"
+        xmlns=\"http://www.SupermarketAPI.com\">\r\n  <Product_Commercial>\r\n    <Itemname>Gerber
+        100% Apple Juice - 32 Fl. Oz.</Itemname>\r\n    <ItemDescription>Made from
+        freshly pressed apples. Full serving of fruit in every 1/2 cup (1/2 cup [4
+        fl oz] = 1 serving of fruit per the American Academy of Pediatrics (AAP);
+        Limited to once a day. The AAP encourages the consumption of whole fruits
+        that are mashed or purred for the remaining fruit servings). 100% Juice. Pasteurized
+        for premium quality. Gerber Fruit Juice is 100% natural with added Vitamin
+        C. Gerber Fruit Juice are from only pure juice and contain: No added sugar
+        or sweeteners; No artificial flavors or colors; No preservatives. All Gerber
+        juices have 100% of the Vitamin C your baby needs every day. The Vitamin C
+        in Gerber juices helps your baby absorbs iron better. Mix Gerber juice with
+        iron fortified cereal for an even more nutritious meal.</ItemDescription>\r\n
+        \   <ItemCategory>Baby</ItemCategory>\r\n    <ItemID>26315</ItemID>\r\n    <ItemImage>http://smapistorage.blob.core.windows.net/thumbimages/165020004_100x100.jpg</ItemImage>\r\n
+        \   <AisleNumber>Aisle:m13</AisleNumber>\r\n    <Pricing>3.09</Pricing>\r\n
+        \ </Product_Commercial>\r\n  <Product_Commercial>\r\n    <Itemname>Gerber
+        Apple Juice - 4-4 Fl. Oz.</Itemname>\r\n    <ItemDescription>From concentrate.
+        100% Vitamin C per serving. Full serving of fruit in every bottle. Did you
+        know children are supposed to get 5 servings or more of fruits and vegetables
+        every day? Serving 4 fl oz of Gerber Fruit Juice a day will provide 1 of the
+        5 servings your child needs (4 fl oz = 1 serving of fruit per the American
+        Academy of Pediatrics (AAP); limited to once a day. The AAP encourages the
+        consumption of whole fruits that are mashed or purred for the remaining fruit
+        servings). And because Gerber Fruit Juices are 100% real juice with other
+        ingredients, they have: No added sugar or sweeteners; No artificial color;
+        No preservatives. 100% Real juice. Pasteurized for premium quality. Full day&amp;#39;s
+        supply of Vitamin C. Made with concentrate from Argentina.</ItemDescription>\r\n
+        \   <ItemCategory>Baby</ItemCategory>\r\n    <ItemID>26318</ItemID>\r\n    <ItemImage>http://smapistorage.blob.core.windows.net/thumbimages/165020022_100x100.jpg</ItemImage>\r\n
+        \   <AisleNumber>Aisle:m13</AisleNumber>\r\n    <Pricing>3.29</Pricing>\r\n
+        \ </Product_Commercial>\r\n  <Product_Commercial>\r\n    <Itemname>Gerber
+        Organic Apple Juice - 4-4 Fl. Oz.</Itemname>\r\n    <ItemDescription>USDA
+        organic. 100% Vitamin C per serving. Pure and simple, that&amp;#39;s Gerber
+        Organic. Gerber Organic Fruit Juices are made from 100% pure juice with added
+        Vitamin C and contain: No added sugar or sweeteners. No artificial flavors
+        or colors. No preservatives. All Gerber Organic Juices provide 100% of the
+        Vitamin C your baby needs every day. Certified organic by Oregon Tilth. Organic
+        ingredients used by Gerber are grown by certified growers who use organic
+        practices.</ItemDescription>\r\n    <ItemCategory>Baby</ItemCategory>\r\n
+        \   <ItemID>26321</ItemID>\r\n    <ItemImage>http://smapistorage.blob.core.windows.net/thumbimages/960023176_100x100.jpg</ItemImage>\r\n
+        \   <AisleNumber>Aisle:m13</AisleNumber>\r\n    <Pricing>3.89</Pricing>\r\n
+        \ </Product_Commercial>\r\n  <Product_Commercial>\r\n    <Itemname>Pedialyte
+        Tetra/Brick Pk Apple Flavor - 4-6.8 Fl. Oz.</Itemname>\r\n    <ItemDescription>Artificial
+        flavor. Helps prevent dehydration due to diarrhea and vomiting. Kid approved.
+        Kid friendly package. Easy toddler grip. Clear liquid. Since 1966, moms of
+        every generation have trusted Pedialyte. Today that heritage of trust continues
+        with our most advanced formulation. Pedialyte is scientifically designed to
+        help replace electrolytes, like sodium, lost during diarrhea more effectively
+        than common beverages. Dehydration can make your sick child feel even worse.
+        Use Pedialyte rather than juices, soda, sports drinks or water, at the first
+        sign of diarrhea and vomiting to help replace lost fluid and electrolytes.
+        Halal.</ItemDescription>\r\n    <ItemCategory>Baby</ItemCategory>\r\n    <ItemID>26331</ItemID>\r\n
+        \   <ItemImage>http://smapistorage.blob.core.windows.net/thumbimages/960043683_100x100.jpg</ItemImage>\r\n
+        \   <AisleNumber>Aisle:m13</AisleNumber>\r\n    <Pricing>6.79</Pricing>\r\n
+        \ </Product_Commercial>\r\n  <Product_Commercial>\r\n    <Itemname>Gerber
+        Finger Foods Fruit Wagon Wheels Apples - 1.48 Oz</Itemname>\r\n    <ItemDescription>Puffed
+        grain with real apples. Naturally flavored with other natural flavors. For
+        lil&amp;#39; ones learning to self-feed. Every Bite Counts: Good source of
+        iron, zinc &amp; vitamin E for infants; Easy to chew &amp; swallow. Unique
+        wheel shape that&amp;#39;s just the right size for babies to pick up and hold.
+        No artificial flavors or colors. Made with puffed grain and real apples. Provides
+        iron, zinc and vitamin E for infants. Wagon Wheels are part of the Finger
+        Foods line of wholesome snacks from Gerber designed for babies learning to
+        self-feed. Your baby is ready for Wagon Wheels when he: Crawls on hands and
+        knees (with tummy up and off the floor); Eats thicker, lumpier foods with
+        larger pieces; Uses jaw to mash food with gums; Holds small foods between
+        thumb and first finger.</ItemDescription>\r\n    <ItemCategory>Baby</ItemCategory>\r\n
+        \   <ItemID>26349</ItemID>\r\n    <ItemImage>http://smapistorage.blob.core.windows.net/thumbimages/165090027_100x100.jpg</ItemImage>\r\n
+        \   <AisleNumber>Aisle:m13</AisleNumber>\r\n    <Pricing>2</Pricing>\r\n  </Product_Commercial>\r\n
+        \ <Product_Commercial>\r\n    <Itemname>Gerber Graduates Finger Foods Strawberry
+        Apple Fruit Puffs - 1.48 Oz</Itemname>\r\n    <ItemDescription>Crawler. Puffed
+        grains with real fruit. Naturally flavored with other natural flavors. Made
+        with whole grains. With Vitablocks nutrient blend. Melts in mouth. Good to
+        Know: Graduates Puffs has 2 grams whole grains per serving. Formulated with
+        Vitablocks Nutrients Blend for snacks. Iron for healthy cognitive development.
+        Zinc, a major building block of healthy immune system. Vitamin E, a powerful
+        antioxidant. Good to Remember: Graduates Puffs are a healthy first step to
+        independent eating.</ItemDescription>\r\n    <ItemCategory>Baby</ItemCategory>\r\n
+        \   <ItemID>26356</ItemID>\r\n    <ItemImage>http://smapistorage.blob.core.windows.net/thumbimages/165090012_100x100.jpg</ItemImage>\r\n
+        \   <AisleNumber>Aisle:m13</AisleNumber>\r\n    <Pricing>2</Pricing>\r\n  </Product_Commercial>\r\n
+        \ <Product_Commercial>\r\n    <Itemname>Gerber Graduates Mini Fruits Apple
+        - 1 Oz</Itemname>\r\n    <ItemDescription>Healthy, freeze-dried snack. Made
+        from 100% real fruit. Dissolves quickly into soft pieces. Appropriate for
+        children 12+ months. Specially made for toddlers. No preservatives. No artificial
+        flavors. Perfect food for little fingers. 4 servings of fruit. Great for on
+        the go and at home. Graduates Mini Fruits is a tasty convenient, no mess way
+        to give your child a full serving of real fruit.</ItemDescription>\r\n    <ItemCategory>Baby</ItemCategory>\r\n
+        \   <ItemID>26365</ItemID>\r\n    <ItemImage>http://smapistorage.blob.core.windows.net/thumbimages/165050258_100x100.jpg</ItemImage>\r\n
+        \   <AisleNumber>Aisle:m13</AisleNumber>\r\n    <Pricing>2.5</Pricing>\r\n
+        \ </Product_Commercial>\r\n  <Product_Commercial>\r\n    <Itemname>O Organics
+        Toddler Cereal Bars Apple - 5.03 Oz</Itemname>\r\n    <ItemDescription>12+
+        Months. Made with organic wheat flour. Organic Apple Cereal Bars: organic
+        ingredients grown without harmful pesticides. No genetically engineered ingredients.
+        Excellent source of zinc and calcium. Excellent source of six B vitamins,
+        no hydrogenated oils, no trans fats. Organic from the source: These USDA certified
+        organic cereal bars are filled with real fruit, for a naturally sweet flavor
+        that tastes like it is fresh from the field. The apple filling is wrapped
+        in a layer of organic whole grains. All ingredients are grown using earth
+        friendly farming practices. Which means they are not only good for your child,
+        they are good for everybody. Organic for your toddler: For breakfast on the
+        go or just an anytime snack, these fruit filled cereal bars are the perfect
+        solution. Each one is individually wrapped, which means they are always ready
+        to go. This product is certified organic by Quality Assurance International.
+        Product of USA.</ItemDescription>\r\n    <ItemCategory>Baby</ItemCategory>\r\n
+        \   <ItemID>26371</ItemID>\r\n    <ItemImage>http://smapistorage.blob.core.windows.net/thumbimages/165050276_100x100.jpg</ItemImage>\r\n
+        \   <AisleNumber>Aisle:m13</AisleNumber>\r\n    <Pricing>2.8</Pricing>\r\n
+        \ </Product_Commercial>\r\n  <Product_Commercial>\r\n    <Itemname>Gerber
+        Preschool Strawberry and Apple Fruit Twists - 1.75 Oz</Itemname>\r\n    <ItemDescription>Real
+        fruit snacks naturally flavored with other natural flavors. No preservatives.
+        Developmentally appropriate. 99% real concentrated fruit &amp; juice. With
+        the antioxidant power of vitamin C. Our Start Healthy Stay Healthy nutrition
+        guide gives you the information you need to provide your child with the best
+        possible nutrition for healthy growth and development. Our unique color-coded
+        symbols will help you choose the right products- from infancy to preschool.
+        Good to Know: 1/2 preschooler serving of fruit per twist (from juice and fruit)
+        (one preschooler serving is equivalent to 1/3 cup of fruit); no artificial
+        flavors or artificial sweeteners; 2 great flavors twisted into 1 snack; individually
+        wrapped for on the go snacking; taste preschoolers love. Good to Remember:
+        Preschoolers need about 1000 calories per day- same as when they were toddlers;
+        diets with nutritious meals and snacks provide energy to grow and play; preschoolers
+        need at least 3 serving of fruit per day; try our other pr</ItemDescription>\r\n
+        \   <ItemCategory>Baby</ItemCategory>\r\n    <ItemID>26404</ItemID>\r\n    <ItemImage>http://smapistorage.blob.core.windows.net/thumbimages/960018932_100x100.jpg</ItemImage>\r\n
+        \   <AisleNumber>Aisle:m13</AisleNumber>\r\n    <Pricing>2.5</Pricing>\r\n
+        \ </Product_Commercial>\r\n  <Product_Commercial>\r\n    <Itemname>Happy Tot
+        Butternut Squash Apple Stage 4 Orgnc Superfoods For Tots and Tykes - 4.22
+        Oz</Itemname>\r\n    <ItemDescription>For tots &amp; tykes. Fruit + veggie
+        mix with super grains. Natural omega-3s: 822 mg per serving! Rich in antioxidants.
+        Protein &amp; fiber. 100% all natural. USDA organic. No added sugar, soy,
+        wheat, dairy or gluten, BPA free package. About HappyTot: Our mission is to
+        provide you with the absolute best foods for your little one. We work with
+        Dr. Sears to come up with tasty recipes using only natural nutrition &amp;
+        yummy organic ingredients. About Salba: The super super grain. Salba is an
+        ancient, gluten-free grain. It is an amazing source of omega-3 fatty acids
+        &amp; provides fiber, protein, calcium, iron and many other vitamins, minerals
+        and antioxidants. This rich source of nutrients is featured in the HappyTot
+        line and is recommended by Dr. Sears! Enjoy! 1 serving contains 822 mg of
+        omega-3s plus 100 (umole TE/g) of antioxidants. Why HappyTot? Always organic.
+        No GEIs. Dr. Sears recommended. Optimally formulated for baby&amp;#39;s health.
+        Minimal processing. Portable packaging. BPA free. Certified organic</ItemDescription>\r\n
+        \   <ItemCategory>Baby</ItemCategory>\r\n    <ItemID>26408</ItemID>\r\n    <ItemImage>http://smapistorage.blob.core.windows.net/thumbimages/960046207_100x100.jpg</ItemImage>\r\n
+        \   <AisleNumber>Aisle:m13</AisleNumber>\r\n    <Pricing>1.09</Pricing>\r\n
+        \ </Product_Commercial>\r\n  <Product_Commercial>\r\n    <Itemname>Earths
+        Best Apple Butternut Squash  Stage 2  - 4 oz (113 g)</Itemname>\r\n    <ItemDescription>Earths
+        Best Apple Butternut Squash  Stage 2  - 4 oz (113 g)</ItemDescription>\r\n
+        \   <ItemCategory>Baby</ItemCategory>\r\n    <ItemID>70666</ItemID>\r\n    <ItemImage>http://smapistorage.blob.core.windows.net/thumbimages/2/A7E7027.jpg</ItemImage>\r\n
+        \   <AisleNumber>Aisle:m13</AisleNumber>\r\n    <Pricing>0.89</Pricing>\r\n
+        \ </Product_Commercial>\r\n  <Product_Commercial>\r\n    <Itemname>Earths
+        Best Apple Butternut Squash  Stage 2  - 4 oz (113 g)</Itemname>\r\n    <ItemDescription>Earths
+        Best Apple Butternut Squash  Stage 2  - 4 oz (113 g)</ItemDescription>\r\n
+        \   <ItemCategory>Baby</ItemCategory>\r\n    <ItemID>70667</ItemID>\r\n    <ItemImage>http://smapistorage.blob.core.windows.net/thumbimages/2/C410F54.jpg</ItemImage>\r\n
+        \   <AisleNumber>Aisle:m13</AisleNumber>\r\n    <Pricing>0.89</Pricing>\r\n
+        \ </Product_Commercial>\r\n  <Product_Commercial>\r\n    <Itemname>Beech-Nut
+        Baby Food  Stage 1  Applesauce  - 2.5 oz (71 g)</Itemname>\r\n    <ItemDescription>Beech-Nut
+        Baby Food  Stage 1  Applesauce  - 2.5 oz (71 g)</ItemDescription>\r\n    <ItemCategory>Baby</ItemCategory>\r\n
+        \   <ItemID>72053</ItemID>\r\n    <ItemImage>http://smapistorage.blob.core.windows.net/thumbimages/2/90689D3.jpg</ItemImage>\r\n
+        \   <AisleNumber>Aisle:m13</AisleNumber>\r\n    <Pricing>0.49</Pricing>\r\n
+        \ </Product_Commercial>\r\n  <Product_Commercial>\r\n    <Itemname>Beech-Nut
+        Baby Food  Rolled Oats with Apple  Stage 3  - 6 oz (170 g)</Itemname>\r\n
+        \   <ItemDescription>Beech-Nut Baby Food  Rolled Oats with Apple  Stage 3
+        \ - 6 oz (170 g)</ItemDescription>\r\n    <ItemCategory>Baby</ItemCategory>\r\n
+        \   <ItemID>72063</ItemID>\r\n    <ItemImage>http://smapistorage.blob.core.windows.net/thumbimages/2/E05B102.jpg</ItemImage>\r\n
+        \   <AisleNumber>Aisle:m13</AisleNumber>\r\n    <Pricing>0.99</Pricing>\r\n
+        \ </Product_Commercial>\r\n  <Product_Commercial>\r\n    <Itemname>Beech-Nut
+        Baby Food  Stage 2  Apricots with Pears and Apples  - 4 oz (113 g)</Itemname>\r\n
+        \   <ItemDescription>Beech-Nut Baby Food  Stage 2  Apricots with Pears and
+        Apples  - 4 oz (113 g)</ItemDescription>\r\n    <ItemCategory>Baby</ItemCategory>\r\n
+        \   <ItemID>72066</ItemID>\r\n    <ItemImage>http://smapistorage.blob.core.windows.net/thumbimages/2/739A65E.jpg</ItemImage>\r\n
+        \   <AisleNumber>Aisle:m13</AisleNumber>\r\n    <Pricing>0.69</Pricing>\r\n
+        \ </Product_Commercial>\r\n  <Product_Commercial>\r\n    <Itemname>Beech-Nut
+        Strained Apple And Banana Fruit Baby Food  - 6 oz (170 g)</Itemname>\r\n    <ItemDescription>Beech-Nut
+        Strained Apple And Banana Fruit Baby Food  - 6 oz (170 g)</ItemDescription>\r\n
+        \   <ItemCategory>Baby</ItemCategory>\r\n    <ItemID>74300</ItemID>\r\n    <ItemImage>http://smapistorage.blob.core.windows.net/thumbimages/2/192C52D.jpg</ItemImage>\r\n
+        \   <AisleNumber>Aisle:m13</AisleNumber>\r\n    <Pricing>0.75</Pricing>\r\n
+        \ </Product_Commercial>\r\n  <Product_Commercial>\r\n    <Itemname>Beech-Nut
+        Strained Apple Cherry Baby Food  - 4oz (113 g)</Itemname>\r\n    <ItemDescription>Beech-Nut
+        Strained Apple Cherry Baby Food  - 4oz (113 g)</ItemDescription>\r\n    <ItemCategory>Baby</ItemCategory>\r\n
+        \   <ItemID>74305</ItemID>\r\n    <ItemImage>http://smapistorage.blob.core.windows.net/thumbimages/2/6D5DCB2.jpg</ItemImage>\r\n
+        \   <AisleNumber>Aisle:m13</AisleNumber>\r\n    <Pricing>0.69</Pricing>\r\n
+        \ </Product_Commercial>\r\n  <Product_Commercial>\r\n    <Itemname>Beech-Nut
+        Strained Apple Blueberry Fruit Baby Food  - 4 oz (113 g)</Itemname>\r\n    <ItemDescription>Beech-Nut
+        Strained Apple Blueberry Fruit Baby Food  - 4 oz (113 g)</ItemDescription>\r\n
+        \   <ItemCategory>Baby</ItemCategory>\r\n    <ItemID>74312</ItemID>\r\n    <ItemImage>http://smapistorage.blob.core.windows.net/thumbimages/2/DAAF1CA.jpg</ItemImage>\r\n
+        \   <AisleNumber>Aisle:m13</AisleNumber>\r\n    <Pricing>0.69</Pricing>\r\n
+        \ </Product_Commercial>\r\n  <Product_Commercial>\r\n    <Itemname>Beech-Nut
+        Strained Apples and Chicken Baby Food  - 4 oz (113 g)</Itemname>\r\n    <ItemDescription>Beech-Nut
+        Strained Apples and Chicken Baby Food  - 4 oz (113 g)</ItemDescription>\r\n
+        \   <ItemCategory>Baby</ItemCategory>\r\n    <ItemID>74314</ItemID>\r\n    <ItemImage>http://smapistorage.blob.core.windows.net/thumbimages/2/21BD2D9.jpg</ItemImage>\r\n
+        \   <AisleNumber>Aisle:m13</AisleNumber>\r\n    <Pricing>0.69</Pricing>\r\n
+        \ </Product_Commercial>\r\n  <Product_Commercial>\r\n    <Itemname>Gerber
+        1st Foods Plastic Applesauce 2.5 Oz  - 2 Pk Sleeve</Itemname>\r\n    <ItemDescription>Gerber
+        1st Foods Plastic Applesauce 2.5 Oz  - 2 Pk Sleeve</ItemDescription>\r\n    <ItemCategory>Baby</ItemCategory>\r\n
+        \   <ItemID>75557</ItemID>\r\n    <ItemImage>http://smapistorage.blob.core.windows.net/thumbimages/2/A0A4C2F.jpg</ItemImage>\r\n
+        \   <AisleNumber>Aisle:m13</AisleNumber>\r\n    <Pricing>1.19</Pricing>\r\n
+        \ </Product_Commercial>\r\n</ArrayOfProduct_Commercial>"
+    http_version: 
+  recorded_at: Mon, 27 Oct 2014 14:49:53 GMT
+recorded_with: VCR 2.9.3
