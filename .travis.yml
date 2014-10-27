@@ -8,4 +8,4 @@ matrix:
     - rvm: ruby-head
 env:
   global:
-    secure: ZwUVMgvpGI5v7zKX6gKc16LUgwUbO2Vq879stelF3vZElvZXKx2axm6aVFl1rbEDHAzZCDT8QGOvfKJKXKdZSh+hE8e7EpiD51V2VUP2t76nLbVyooAvDY7CYmhh2XEZKG5sXtYmx2Xn87w8nu8KfoEJinwYxrENM6vdoDUeiSI=
+    secure: "WPYuGHi++I4+WBw/kJS3y11CJ1Qb3e98dw0Q+VgB1Da/0uX+LpCHWeE796aCdr+JrwJ6HHrrnhEoBs5bzkXw6j0UGanAUA7SGkNLcMsiKyyknxxOZ1fQ6Z5gZqGuFR+PZOcyRyciHzKwHVwn1A5RX4KPmiE58/UnPkqNR54ix+U="
