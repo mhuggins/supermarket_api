@@ -12,7 +12,7 @@ RSpec.describe SupermarketApi::Client do
     end
 
     it 'returns an array of stores' do
-      expect(results).to be_an_array_of SupermarketApi::Store
+      expect(results).to all be_a(SupermarketApi::Store)
     end
 
     it 'returns stores with matching names' do
@@ -26,7 +26,7 @@ RSpec.describe SupermarketApi::Client do
     end
 
     it 'returns an array of stores' do
-      expect(results).to be_an_array_of SupermarketApi::Store
+      expect(results).to all be_a(SupermarketApi::Store)
     end
 
     it 'returns stores with matching city/state' do
@@ -41,7 +41,7 @@ RSpec.describe SupermarketApi::Client do
     end
 
     it 'returns an array of stores' do
-      expect(results).to be_an_array_of SupermarketApi::Store
+      expect(results).to all be_a(SupermarketApi::Store)
     end
 
     it 'returns stores with matching zip code' do
@@ -70,7 +70,7 @@ RSpec.describe SupermarketApi::Client do
     end
 
     it 'returns an array of products' do
-      expect(results).to be_an_array_of SupermarketApi::Product
+      expect(results).to all be_a(SupermarketApi::Product)
     end
 
     it 'returns products with matching name' do
@@ -84,7 +84,7 @@ RSpec.describe SupermarketApi::Client do
     end
 
     it 'returns an array of products' do
-      expect(results).to be_an_array_of SupermarketApi::Product
+      expect(results).to all be_a(SupermarketApi::Product)
     end
 
     it 'returns products with matching name' do
@@ -117,7 +117,7 @@ RSpec.describe SupermarketApi::Client do
     end
 
     it 'returns an array of products' do
-      expect(results).to be_an_array_of SupermarketApi::Product
+      expect(results).to all be_a(SupermarketApi::Product)
     end
 
     it 'returns products with matching name' do
@@ -135,7 +135,7 @@ RSpec.describe SupermarketApi::Client do
     end
 
     it 'returns an array of products' do
-      expect(results).to be_an_array_of SupermarketApi::Product
+      expect(results).to all be_a(SupermarketApi::Product)
     end
 
     it 'returns products with matching name' do
@@ -153,7 +153,7 @@ RSpec.describe SupermarketApi::Client do
     end
 
     xit 'returns an array of strings' do
-      expect(results).to be_an_array_of String
+      expect(results).to all be_a(String)
     end
 
     xit 'returns groceries with matching name' do
@@ -167,7 +167,7 @@ RSpec.describe SupermarketApi::Client do
     end
 
     xit 'returns an array of strings' do
-      expect(results).to be_an_array_of String
+      expect(results).to all be_a(String)
     end
 
     xit 'returns groceries with matching name' do
@@ -181,7 +181,7 @@ RSpec.describe SupermarketApi::Client do
     end
 
     it 'returns an array of store states' do
-      expect(results).to be_an_array_of SupermarketApi::StoreState
+      expect(results).to all be_a(SupermarketApi::StoreState)
     end
   end
 
@@ -191,7 +191,7 @@ RSpec.describe SupermarketApi::Client do
     end
 
     it 'returns an array of store cities' do
-      expect(results).to be_an_array_of SupermarketApi::StoreCity
+      expect(results).to all be_a(SupermarketApi::StoreCity)
     end
 
     it 'returns cities with matching state' do
