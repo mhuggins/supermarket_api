@@ -1,0 +1,52 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.supermarketapi.com/api.asmx/GetGroceries?APIKEY=API_KEY&SearchText=apple
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - www.supermarketapi.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 21 Nov 2014 23:04:34 GMT
+      Server:
+      - Microsoft-IIS/6.0
+      X-Powered-By:
+      - ASP.NET
+      X-Aspnet-Version:
+      - 2.0.50727
+      Cache-Control:
+      - private, max-age=0
+      Content-Type:
+      - text/xml; charset=utf-8
+      Content-Length:
+      - '857'
+    body:
+      encoding: UTF-8
+      string: "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<ArrayOfString xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"
+        xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns=\"http://www.SupermarketAPI.com\">\r\n
+        \ <string>Apples</string>\r\n  <string>Gerber 100% Apple Juice - 32 Fl. Oz.</string>\r\n
+        \ <string>Gerber Apple Juice - 4-4 Fl. Oz.</string>\r\n  <string>Gerber Organic
+        Apple Juice - 4-4 Fl. Oz.</string>\r\n  <string>Pedialyte Tetra/Brick Pk Apple
+        Flavor - 4-6.8 Fl. Oz.</string>\r\n  <string>Gerber Finger Foods Fruit Wagon
+        Wheels Apples - 1.48 Oz</string>\r\n  <string>Gerber Graduates Finger Foods
+        Strawberry Apple Fruit Puffs - 1.48 Oz</string>\r\n  <string>Gerber Graduates
+        Mini Fruits Apple - 1 Oz</string>\r\n  <string>O Organics Toddler Cereal Bars
+        Apple - 5.03 Oz</string>\r\n  <string>Gerber Preschool Strawberry and Apple
+        Fruit Twists - 1.75 Oz</string>\r\n</ArrayOfString>"
+    http_version: 
+  recorded_at: Fri, 21 Nov 2014 23:04:34 GMT
+recorded_with: VCR 2.9.3

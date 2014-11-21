@@ -1,0 +1,66 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.supermarketapi.com/api.asmx/CitiesByState?APIKEY=API_KEY&SelectedState=CO
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - www.supermarketapi.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 21 Nov 2014 23:04:32 GMT
+      Server:
+      - Microsoft-IIS/6.0
+      X-Powered-By:
+      - ASP.NET
+      X-Aspnet-Version:
+      - 2.0.50727
+      Cache-Control:
+      - private, max-age=0
+      Content-Type:
+      - text/xml; charset=utf-8
+      Content-Length:
+      - '2023'
+    body:
+      encoding: UTF-8
+      string: "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<ArrayOfStoreCity xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"
+        xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns=\"http://www.SupermarketAPI.com\">\r\n
+        \ <StoreCity>\r\n    <City>Aspen</City>\r\n    <State>CO</State>\r\n  </StoreCity>\r\n
+        \ <StoreCity>\r\n    <City>Breckenridge</City>\r\n    <State>CO</State>\r\n
+        \ </StoreCity>\r\n  <StoreCity>\r\n    <City>Broomfield</City>\r\n    <State>CO</State>\r\n
+        \ </StoreCity>\r\n  <StoreCity>\r\n    <City>Buena Vista</City>\r\n    <State>CO</State>\r\n
+        \ </StoreCity>\r\n  <StoreCity>\r\n    <City>Carbondale</City>\r\n    <State>CO</State>\r\n
+        \ </StoreCity>\r\n  <StoreCity>\r\n    <City>Colorado Springs</City>\r\n    <State>CO</State>\r\n
+        \ </StoreCity>\r\n  <StoreCity>\r\n    <City>Conifer</City>\r\n    <State>CO</State>\r\n
+        \ </StoreCity>\r\n  <StoreCity>\r\n    <City>Delta</City>\r\n    <State>CO</State>\r\n
+        \ </StoreCity>\r\n  <StoreCity>\r\n    <City>Dillon</City>\r\n    <State>CO</State>\r\n
+        \ </StoreCity>\r\n  <StoreCity>\r\n    <City>Eagle</City>\r\n    <State>CO</State>\r\n
+        \ </StoreCity>\r\n  <StoreCity>\r\n    <City>Glenwood Springs</City>\r\n    <State>CO</State>\r\n
+        \ </StoreCity>\r\n  <StoreCity>\r\n    <City>Grand Junction </City>\r\n    <State>Co</State>\r\n
+        \ </StoreCity>\r\n  <StoreCity>\r\n    <City>Gunnison</City>\r\n    <State>CO</State>\r\n
+        \ </StoreCity>\r\n  <StoreCity>\r\n    <City>Hotchkiss</City>\r\n    <State>CO</State>\r\n
+        \ </StoreCity>\r\n  <StoreCity>\r\n    <City>Lafayette</City>\r\n    <State>CO</State>\r\n
+        \ </StoreCity>\r\n  <StoreCity>\r\n    <City>Leadville</City>\r\n    <State>CO</State>\r\n
+        \ </StoreCity>\r\n  <StoreCity>\r\n    <City>Montrose</City>\r\n    <State>CO</State>\r\n
+        \ </StoreCity>\r\n  <StoreCity>\r\n    <City>New Castle</City>\r\n    <State>CO</State>\r\n
+        \ </StoreCity>\r\n  <StoreCity>\r\n    <City>Rifle</City>\r\n    <State>CO</State>\r\n
+        \ </StoreCity>\r\n  <StoreCity>\r\n    <City>Superior</City>\r\n    <State>CO</State>\r\n
+        \ </StoreCity>\r\n  <StoreCity>\r\n    <City>Vail</City>\r\n    <State>CO</State>\r\n
+        \ </StoreCity>\r\n  <StoreCity>\r\n    <City>Woodland Park</City>\r\n    <State>CO</State>\r\n
+        \ </StoreCity>\r\n</ArrayOfStoreCity>"
+    http_version: 
+  recorded_at: Fri, 21 Nov 2014 23:04:32 GMT
+recorded_with: VCR 2.9.3

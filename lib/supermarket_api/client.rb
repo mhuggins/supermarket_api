@@ -1,8 +1,10 @@
 require 'net/http'
 
-require_relative 'serializers/commercial_products_serializer'
+require_relative 'serializers/cities_serializer'
 require_relative 'serializers/products_serializer'
+require_relative 'serializers/store_states_serializer'
 require_relative 'serializers/stores_serializer'
+require_relative 'serializers/strings_serializer'
 
 module SupermarketApi
   class Client
@@ -44,17 +46,37 @@ module SupermarketApi
 
     def commercial_product_search_by_id(id)
       response = get('COMMERCIAL_SearchByItemID', ItemId: id)
-      CommercialProductsSerializer.new([]).from_xml(response).first
+      ProductsSerializer.new([]).from_xml(response).first
     end
 
     def commercial_product_search_by_name(name)
       response = get('COMMERCIAL_SearchByProductName', ItemName: name)
-      CommercialProductsSerializer.new([]).from_xml(response)
+      ProductsSerializer.new([]).from_xml(response)
     end
 
     def commercial_product_search(name, store_id)
       response = get('COMMERCIAL_SearchForItem', ItemName: name, StoreId: store_id)
-      CommercialProductsSerializer.new([]).from_xml(response)
+      ProductsSerializer.new([]).from_xml(response)
+    end
+
+    # def groceries(name)
+    #   response = get('GetGroceries', SearchText: name)
+    #   StringsSerializer.new([]).from_xml(response)
+    # end
+    #
+    # def commercial_groceries(name)
+    #   response = get('COMMERCIAL_GetGroceries', SearchText: name)
+    #   StringsSerializer.new([]).from_xml(response)
+    # end
+
+    def us_states
+      response = get('AllUSStates')
+      StoreStatesSerializer.new([]).from_xml(response)  #.map(&:state)
+    end
+
+    def cities_by_state(state)
+      response = get('CitiesByState', SelectedState: state)
+      StoreCitiesSerializer.new([]).from_xml(response)
     end
 
     private

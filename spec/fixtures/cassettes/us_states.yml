@@ -1,0 +1,82 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.supermarketapi.com/api.asmx/AllUSStates?APIKEY=API_KEY
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - www.supermarketapi.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 21 Nov 2014 23:04:31 GMT
+      Server:
+      - Microsoft-IIS/6.0
+      X-Powered-By:
+      - ASP.NET
+      X-Aspnet-Version:
+      - 2.0.50727
+      Cache-Control:
+      - private, max-age=0
+      Content-Type:
+      - text/xml; charset=utf-8
+      Content-Length:
+      - '3074'
+    body:
+      encoding: UTF-8
+      string: "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<ArrayOfStoreState xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"
+        xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns=\"http://www.SupermarketAPI.com\">\r\n
+        \ <StoreState>\r\n    <State>AL</State>\r\n  </StoreState>\r\n  <StoreState>\r\n
+        \   <State>AK</State>\r\n  </StoreState>\r\n  <StoreState>\r\n    <State>AZ</State>\r\n
+        \ </StoreState>\r\n  <StoreState>\r\n    <State>AR</State>\r\n  </StoreState>\r\n
+        \ <StoreState>\r\n    <State>CA</State>\r\n  </StoreState>\r\n  <StoreState>\r\n
+        \   <State>CO</State>\r\n  </StoreState>\r\n  <StoreState>\r\n    <State>CT</State>\r\n
+        \ </StoreState>\r\n  <StoreState>\r\n    <State>DE</State>\r\n  </StoreState>\r\n
+        \ <StoreState>\r\n    <State>FL</State>\r\n  </StoreState>\r\n  <StoreState>\r\n
+        \   <State>GA</State>\r\n  </StoreState>\r\n  <StoreState>\r\n    <State>HI</State>\r\n
+        \ </StoreState>\r\n  <StoreState>\r\n    <State>ID</State>\r\n  </StoreState>\r\n
+        \ <StoreState>\r\n    <State>IL</State>\r\n  </StoreState>\r\n  <StoreState>\r\n
+        \   <State>IN</State>\r\n  </StoreState>\r\n  <StoreState>\r\n    <State>IA</State>\r\n
+        \ </StoreState>\r\n  <StoreState>\r\n    <State>KS</State>\r\n  </StoreState>\r\n
+        \ <StoreState>\r\n    <State>KY</State>\r\n  </StoreState>\r\n  <StoreState>\r\n
+        \   <State>LA</State>\r\n  </StoreState>\r\n  <StoreState>\r\n    <State>ME</State>\r\n
+        \ </StoreState>\r\n  <StoreState>\r\n    <State>MD</State>\r\n  </StoreState>\r\n
+        \ <StoreState>\r\n    <State>MA</State>\r\n  </StoreState>\r\n  <StoreState>\r\n
+        \   <State>MI</State>\r\n  </StoreState>\r\n  <StoreState>\r\n    <State>MN</State>\r\n
+        \ </StoreState>\r\n  <StoreState>\r\n    <State>MS</State>\r\n  </StoreState>\r\n
+        \ <StoreState>\r\n    <State>MO</State>\r\n  </StoreState>\r\n  <StoreState>\r\n
+        \   <State>MT</State>\r\n  </StoreState>\r\n  <StoreState>\r\n    <State>NC</State>\r\n
+        \ </StoreState>\r\n  <StoreState>\r\n    <State>ND</State>\r\n  </StoreState>\r\n
+        \ <StoreState>\r\n    <State>NE</State>\r\n  </StoreState>\r\n  <StoreState>\r\n
+        \   <State>NV</State>\r\n  </StoreState>\r\n  <StoreState>\r\n    <State>NH</State>\r\n
+        \ </StoreState>\r\n  <StoreState>\r\n    <State>NJ</State>\r\n  </StoreState>\r\n
+        \ <StoreState>\r\n    <State>NM</State>\r\n  </StoreState>\r\n  <StoreState>\r\n
+        \   <State>NY</State>\r\n  </StoreState>\r\n  <StoreState>\r\n    <State>OH</State>\r\n
+        \ </StoreState>\r\n  <StoreState>\r\n    <State>OK</State>\r\n  </StoreState>\r\n
+        \ <StoreState>\r\n    <State>OR</State>\r\n  </StoreState>\r\n  <StoreState>\r\n
+        \   <State>PA</State>\r\n  </StoreState>\r\n  <StoreState>\r\n    <State>RI</State>\r\n
+        \ </StoreState>\r\n  <StoreState>\r\n    <State>SC</State>\r\n  </StoreState>\r\n
+        \ <StoreState>\r\n    <State>SD</State>\r\n  </StoreState>\r\n  <StoreState>\r\n
+        \   <State>TN</State>\r\n  </StoreState>\r\n  <StoreState>\r\n    <State>TX</State>\r\n
+        \ </StoreState>\r\n  <StoreState>\r\n    <State>UT</State>\r\n  </StoreState>\r\n
+        \ <StoreState>\r\n    <State>VT</State>\r\n  </StoreState>\r\n  <StoreState>\r\n
+        \   <State>VA</State>\r\n  </StoreState>\r\n  <StoreState>\r\n    <State>WA</State>\r\n
+        \ </StoreState>\r\n  <StoreState>\r\n    <State>WV</State>\r\n  </StoreState>\r\n
+        \ <StoreState>\r\n    <State>WI</State>\r\n  </StoreState>\r\n  <StoreState>\r\n
+        \   <State>WY</State>\r\n  </StoreState>\r\n  <StoreState>\r\n    <State>DC</State>\r\n
+        \ </StoreState>\r\n</ArrayOfStoreState>"
+    http_version: 
+  recorded_at: Fri, 21 Nov 2014 23:04:31 GMT
+recorded_with: VCR 2.9.3

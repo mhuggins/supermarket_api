@@ -146,4 +146,56 @@ RSpec.describe SupermarketApi::Client do
       expect(results.map(&:price)).to all be_a(Float).and(be > 0)
     end
   end
+
+  describe '#groceries' do
+    let(:results) do
+      VCR.use_cassette('groceries') { subject.groceries('apple') }
+    end
+
+    xit 'returns an array of strings' do
+      expect(results).to be_an_array_of String
+    end
+
+    xit 'returns groceries with matching name' do
+      expect(results).to all match(/apple/i)
+    end
+  end
+
+  describe '#commercial_groceries' do
+    let(:results) do
+      VCR.use_cassette('commercial_groceries') { subject.commercial_groceries('apple') }
+    end
+
+    xit 'returns an array of strings' do
+      expect(results).to be_an_array_of String
+    end
+
+    xit 'returns groceries with matching name' do
+      expect(results).to all match(/apple/i)
+    end
+  end
+
+  describe '#us_states' do
+    let(:results) do
+      VCR.use_cassette('us_states') { subject.us_states }
+    end
+
+    it 'returns an array of store states' do
+      expect(results).to be_an_array_of SupermarketApi::StoreState
+    end
+  end
+
+  describe '#cities_by_state' do
+    let(:results) do
+      VCR.use_cassette('cities_by_state') { subject.cities_by_state('CO') }
+    end
+
+    it 'returns an array of store cities' do
+      expect(results).to be_an_array_of SupermarketApi::StoreCity
+    end
+
+    it 'returns cities with matching state' do
+      expect(results.map(&:state)).to all eq 'CO'
+    end
+  end
 end
