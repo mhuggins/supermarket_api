@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ['Matt Huggins']
   spec.email         = ['matt.huggins@gmail.com']
   spec.summary       = 'Ruby client for SupermarketAPI.com'
-  spec.description   = 'Request grocery, product, store information and more from the Supermarket API.'
-  spec.homepage      = ''
+  spec.description   = 'Fetch grocery, product, store, and location information from the Supermarket API.'
+  spec.homepage      = 'https://github.com/mhuggins/supermarket_api'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files -z`.split("\x0")
